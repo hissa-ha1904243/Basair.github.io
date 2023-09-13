@@ -1,0 +1,112 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.navList{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF5DE;
+    padding: 5px;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #F3FBEE;
+    padding: 10px;
+
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background-color: #B7CADB;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 20px 15px;
+    border-radius: 10px;
+    border: 2px #9B72AA solid;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.card:last-child {
+    margin-bottom: 0px;
+}
+
+.details a {
+    margin-left: 20px;
+}
+
+.hizb-head, .hizb-part{
+    padding: 5px 9px;
+    background-color: #B7CADB;
+    margin: 3px;
+    border-radius: 4px;
+    border: 1px #9B72AA solid;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.hide{
+    display: none !important;
+}
+
+.soura, .card-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.soura a{
+    width: 100px;
+    text-align: center;
+}
+
+.card-body {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+.hierarchyIcon{
+    transform: scale(1.5);
+}
+
+a.fa-angle-down {
+
+    margin-left: 10px !important;
+}

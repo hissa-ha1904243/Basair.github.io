@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>verses</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+          integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<img class=logo1 src="img/logo.png" alt="logo">
+
+<div class="navList">
+    <a href="navBySura.html"><li>By Surah</li></a>
+    <a href="navByJuz.html"><li>By Juz</li></a>
+    <a href="displayByPage.html"><li>By Page</li></a>
+</div>
+<br>
+<br>
+<br>
+<div class="footer">
+    <div class="right"><a href="#" class="fa-solid fa-angle-right" onclick="nextPage(this)"></a></div>
+    <middle>
+        <label for="name" id="name">ادخل رقم الصفحه:</label>
+        <input type="text" id="pageNumber" class="pageNumber" type="number">
+        <input class="nav" type="submit" value="Navigatoin" onclick="navPage(this)">
+    </middle>
+    <div class="left"><a href="#" class="fa-solid fa-angle-left arrow" onclick="prevPage(this)"></a></div>
+</div>
+<br>
+
+<script src="https://unpkg.com/localbase/dist/localbase.min.js"></script>
+<script type='module' src="js/loadData.js"></script>
+<script  src="js/displayByPage.js"></script>
+</body>
+</html>

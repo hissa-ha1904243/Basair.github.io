@@ -1,0 +1,91 @@
+*{
+    direction: rtl;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.navList{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF5DE;
+    padding: 5px;
+    list-style-type: none;
+}
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #FFF5DE;
+    padding: 10px;
+}
+.logo{
+    display:block;
+    margin:auto;
+    width:80px;
+    height: 80px;
+}
+.card {
+    background-color: #B7CADB;
+    width: 95%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 20px 15px;
+    border-radius: 10px;
+    border: 2px #9B72AA solid;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.allVerses{
+  margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B7CADB;
+}
+.soura a{
+    width: 100px;
+    text-align: center;
+}
+.navLinks {
+    color: black;
+    text-decoration: none;
+}
+.logo1{
+    width:150px;
+    height: 100px;
+    position: absolute;
+}
+.soura{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+th, td{
+    border: 1px solid blue;
+    padding: 20px;
+}
+.links{
+    display:flex;
+    justify-content: space-between;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.box{
+    background-color: #B7CADB;
+    border-radius: 10px;
+    border:2px solid #9B72AA;
+    text-align: center;
+}
